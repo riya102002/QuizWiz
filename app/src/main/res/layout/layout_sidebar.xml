@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:elevation="8dp"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/menuCreateQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Quiz"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menuViewQuizzes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Quizzes"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menuViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/menuStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

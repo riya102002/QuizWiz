@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bggggg">
+
+    <!-- Label and Spinner for Select Teacher -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/teacherLayout"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacherLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Teacher:"
+                android:padding="30px"
+                android:textAlignment="center"
+                android:background="@drawable/whitebackground"
+                android:layout_marginTop="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginLeft="30px"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/teacherSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30px"
+                android:background="@drawable/whitebackground"
+                android:layout_margin="30px"/>
+        </LinearLayout>
+
+        <!-- Add another LinearLayout for Select Date here -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/dateLayout"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dateLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Date:"
+                android:textAlignment="center"
+                android:padding="30px"
+                android:background="@drawable/whitebackground"
+                android:layout_marginTop="30px"
+                android:layout_marginRight="30px"
+                android:layout_marginLeft="30px"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/dateSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30px"
+                android:background="@drawable/whitebackground"
+                android:layout_margin="30px"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Label and Spinner for Select Subject -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/subjectLayout"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subjectLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Subject:"
+                android:textAlignment="center"
+                android:padding="30px"
+                android:background="@drawable/whitebackground"
+                android:layout_marginRight="30px"
+                android:layout_marginLeft="30px"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30px"
+                android:background="@drawable/whitebackground"
+                android:layout_margin="30px"/>
+        </LinearLayout>
+
+<!--        &lt;!&ndash; Add another LinearLayout for Select Class here &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/classLabelTextView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Select Class:"-->
+<!--                android:padding="30px"-->
+<!--                android:textAlignment="center"-->
+<!--                android:background="@drawable/whitebackground"-->
+<!--                android:layout_margin="30px"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/classSpinner"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="30px"-->
+<!--                android:background="@drawable/whitebackground"-->
+<!--                android:layout_margin="30px"/>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+    <!-- ListView to display stats -->
+    <ListView
+        android:id="@+id/statsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:background="@drawable/whitebackground"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"/>
+
+    <ImageView
+        android:id="@+id/noDataImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/circle_border"
+        android:src="@drawable/wait"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/noDataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Looks like no results have been published yet!"
+        app:layout_constraintTop_toBottomOf="@+id/noDataImageView"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"/>
+
+</LinearLayout>

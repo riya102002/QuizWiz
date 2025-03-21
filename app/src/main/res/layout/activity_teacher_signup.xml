@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextTeacherID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher ID Number"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <EditText
+        android:id="@+id/editTextTeacherName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Name"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <EditText
+        android:id="@+id/editTextTeacherSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Subject"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <EditText
+        android:id="@+id/editTextTeacherPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Phone"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <EditText
+        android:id="@+id/editTextTeacherEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Email"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <EditText
+        android:id="@+id/editTextTeacherPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Teacher Password"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/left"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="20px"/>
+
+    <ImageView
+        android:id="@+id/imageViewTeacher"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/teacherdefault"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Teacher Image"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/whitebackground"
+        android:layout_margin="20px"/>
+</LinearLayout>
+</ScrollView>

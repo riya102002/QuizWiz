@@ -1,0 +1,30 @@
+<!-- res/layout/dialog_subject_list.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:background="@drawable/lavender">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30px"
+        android:background="@drawable/whitebackground"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="30px"
+        android:text="Select Subject"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <ListView
+        android:id="@+id/listViewSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<!-- res/layout/dialog_quiz_ids.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30px"
+    android:background="@drawable/lavender">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Quiz ID"
+        android:padding="30px"
+        android:background="@drawable/whitebackground"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="16dp" />
+
+    <ListView
+        android:id="@+id/listViewQuizIDs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30px"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

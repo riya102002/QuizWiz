@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggggg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Select Quiz!"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"/>
+
+    <Spinner
+        android:id="@+id/teacherSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"/>
+
+    <Spinner
+        android:id="@+id/dateSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teacherSpinner"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:padding="30px"
+        android:background="@drawable/whitebackground"/>
+
+    <ListView
+        android:id="@+id/subjectListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="30px"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:background="@drawable/whitebackground"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizWiz"
+        tools:targetApi="31" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PublishQuizResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQViewQuizStudentStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizGraphicalStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowStudentWiseQuizStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowOverallQuizStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQViewQuizStatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayStudentQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQViewQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MCQQuizCreationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

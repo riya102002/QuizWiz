@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bggggg">
+
+    <!-- ... Other views ... -->
+
+    <EditText
+        android:id="@+id/etSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Subject"
+        android:drawableLeft="@drawable/book"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Class"
+        android:inputType="number"
+        android:drawableLeft="@drawable/number"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etTotalQuestions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Total Number of Questions"
+        android:inputType="number"
+        android:drawableLeft="@drawable/number"
+        android:drawablePadding="8dp"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnAddQuestion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20px"
+            android:text="Add Question" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20px"
+            android:text="Save" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewQuestions"/>
+
+    </LinearLayout>
+
+    <!-- ... Other views ... -->
+
+</LinearLayout>

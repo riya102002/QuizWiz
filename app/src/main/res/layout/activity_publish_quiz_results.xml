@@ -1,0 +1,43 @@
+<!-- res/layout/activity_publish_quiz_results.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bggggg">
+
+    <Button
+        android:id="@+id/publishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="20px"/>
+
+    <TextView
+        android:id="@+id/resultLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result will be sent to:"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_margin="30px"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/studentListView"
+        android:background="@drawable/whitebackground"
+        android:padding="30px"
+        android:layout_marginBottom="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginLeft="30px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

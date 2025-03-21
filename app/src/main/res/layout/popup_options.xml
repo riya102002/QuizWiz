@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/popup_background">
+
+
+    <!-- Signup Button -->
+    <ImageView
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:src="@drawable/login" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Login"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:padding="10px"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/signupButton"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:src="@drawable/signup" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign Up"
+        android:textSize="40px"
+        android:padding="10px"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

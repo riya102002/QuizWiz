@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_show_graphical_stats"
+        android:title="Show Graphical Stats"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/analysis"/>
+</menu>

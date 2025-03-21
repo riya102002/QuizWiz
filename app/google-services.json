@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "832897394106",
+    "firebase_url": "https://quizwiz-44b89-default-rtdb.firebaseio.com",
+    "project_id": "quizwiz-44b89",
+    "storage_bucket": "quizwiz-44b89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832897394106:android:c34a8f76a018f9a1082983",
+        "android_client_info": {
+          "package_name": "com.utkarsh.quizwiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832897394106-2a39kgpoef49vjpv6evq83ulh812aeji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-mYsydJ0Z_vga3pY8JdlECEvk9LVC7Ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832897394106-2a39kgpoef49vjpv6evq83ulh812aeji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

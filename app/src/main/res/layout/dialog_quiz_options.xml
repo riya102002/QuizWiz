@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30px">
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select an Option"
+        android:layout_margin="10px"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:padding="30px" />
+
+    <Button
+        android:id="@+id/btnOverallStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Overall Quiz Stats"
+        android:padding="20px" />
+
+    <Button
+        android:id="@+id/btnStudentStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Student Specific Stats"
+        android:padding="20px" />
+
+    <Button
+        android:id="@+id/btnPusblishQuizResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish Quiz Results"
+        android:padding="20px" />
+
+</LinearLayout>
